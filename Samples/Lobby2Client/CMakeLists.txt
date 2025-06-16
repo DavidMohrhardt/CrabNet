@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.6)
+cmake_minimum_required(VERSION 3.26)
 project(Lobby2Client)
 include_directories(${CRABNETHEADERFILES} ./ ${CrabNet_SOURCE_DIR}/DependentExtensions/Lobby2 ${CrabNet_SOURCE_DIR}/DependentExtensions/Lobby2/Rooms)
 FILE(GLOB LOBBYFILES ${CrabNet_SOURCE_DIR}/DependentExtensions/Lobby2/*.cpp ${CrabNet_SOURCE_DIR}/DependentExtensions/Lobby2/*.h)

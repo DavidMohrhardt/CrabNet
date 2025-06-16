@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.6)
+cmake_minimum_required(VERSION 3.26)
 project("Chat Example")
 include_directories(${CRABNETHEADERFILES} ./)
 add_executable(ChatServer "Chat Example Server.cpp" readme.txt)

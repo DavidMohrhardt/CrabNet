@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.6)
+cmake_minimum_required(VERSION 3.26)
 
 option( CRABNET_ENABLE_EXTENSIONS 				"Enable extension projects that might need specific dependencies." TRUE )
 option( CRABNET_EXTENSION_USEMYSQL 				"Enable extensions using MySQL" 		TRUE )

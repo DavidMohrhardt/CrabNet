@@ -1,17 +1,24 @@
-CrabNet 1.001
+# CrabNet 1.001
 ============
 
 Copyright (c) 2014, Oculus VR, Inc. (original RakNet)
 
 Copyright (c) 2016-2018, TES3MP Team
 
-Note
+## Note
+
+### Fork Notes
+
+This fork is merely used to update the Cmake min version to force some proper dependencies on a docker image.
+
+### Original Note
 ----
+
 This fork is not compatible with the original RakNet.
 
 Your compiler should support C++11.
 
-You also need CMake 3.5 to generate project files.
+You also need CMake 3.24 to generate project files.
 
 Package notes
 -------------

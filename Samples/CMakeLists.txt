@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.6)
+cmake_minimum_required(VERSION 3.26)
 
 option( CRABNET_SAMPLE_AutopatcherClient "" True )
 #option( CRABNET_SAMPLE_AutopatcherClientGFx3_0 "" True )
